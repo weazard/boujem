@@ -1,0 +1,12 @@
+using System;
+
+public sealed class _0023_003DqnPB4hTuJE892ygKxfLR8fw_003D_003D
+{
+	public IntPtr _0023_003DqTGtMVuoGUdKNuEzB0G33dg_003D_003D;
+
+	public DateTime _0023_003DqiN9Ke5v7kcpHZBeDEQCluEH6WmwGs3oA_daSOguTGFg_003D;
+
+	public string _0023_003DqnGRLEAe4WxenJOq8J8XhnVGYy1DUb_ayifTy7Tj7MfE_003D;
+
+	public string _0023_003Dqan4BNJnlqBgBEYKUFa4qlVOHxecg2JSjMqz794rChVs_003D;
+}

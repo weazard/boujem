@@ -1,0 +1,12 @@
+public sealed class TextureFrameSource
+{
+	public readonly string _0023_003DqJyUwZ9kR5dhhtuyWgYNi4A_003D_003D;
+
+	public readonly Texture _0023_003DqlVZYO1_0024bxXrbhMfQE_0024fhzg_003D_003D;
+
+	public TextureFrameSource(string _0023_003DqFqHOI_0024OqSrQANLC7qbbZHg_003D_003D, Texture _0023_003DqeoVtYTIxhmcThKRR4bh_0024ag_003D_003D)
+	{
+		_0023_003DqJyUwZ9kR5dhhtuyWgYNi4A_003D_003D = _0023_003DqFqHOI_0024OqSrQANLC7qbbZHg_003D_003D;
+		_0023_003DqlVZYO1_0024bxXrbhMfQE_0024fhzg_003D_003D = _0023_003DqeoVtYTIxhmcThKRR4bh_0024ag_003D_003D;
+	}
+}

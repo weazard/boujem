@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Game</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-" />
+    <EmbeddedResource Include="-" LogicalName="             " />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Steamworks.NET">
+      <HintPath>../../Users/edik/Applications/Sikarugir/Untitled.app/Contents/SharedSupport/prefix/drive_c/fdc/Steamworks.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../opt/homebrew/Cellar/dotnet/10.0.105/libexec/shared/Microsoft.NETCore.App/10.0.5/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Speech" />
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>../../opt/homebrew/Cellar/dotnet/10.0.105/libexec/shared/Microsoft.NETCore.App/10.0.5/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+using System.Runtime.InteropServices;
+
+[StructLayout(LayoutKind.Sequential, Pack = 4)]
+public struct _0023_003DqmUeB5OhdU5Et8IMU6Bk6Lw_003D_003D(float _0023_003DqDnyxyfGTS9SBR3Agvu6lvA_003D_003D, float _0023_003DqrhmIHN3XSo4GxjLzDqKRxg_003D_003D, float _0023_003DqHcuHMsxy_0024oVnbeqM9CJVcA_003D_003D, float _0023_003DqDCZKEkNnHQyU7_00242jLmZjyg_003D_003D)
+{
+	public float _0023_003DqdaoZ4yQDUkFtfexR_0024Zxr2A_003D_003D = _0023_003DqDnyxyfGTS9SBR3Agvu6lvA_003D_003D;
+
+	public float _0023_003DqXDmPvhKqXkp7ZtEJZWfpxg_003D_003D = _0023_003DqrhmIHN3XSo4GxjLzDqKRxg_003D_003D;
+
+	public float _0023_003DqQyRYAg_RID1tEBHnJpCQJg_003D_003D = _0023_003DqHcuHMsxy_0024oVnbeqM9CJVcA_003D_003D;
+
+	public float _0023_003DqIsXjy0jX5MZWjiF_0024NbGeEQ_003D_003D = _0023_003DqDCZKEkNnHQyU7_00242jLmZjyg_003D_003D;
+}

@@ -1,0 +1,10 @@
+public struct _0023_003DqZ88UZZm7GmnK0N_Qy1aqVA_003D_003D
+{
+	public string _0023_003Dqc5RxRqoDQn1stq9bUF7yKw_003D_003D;
+
+	public float _0023_003DqljfWAjvnDqKobCfur7pj9Q_003D_003D;
+
+	public int _0023_003DqVcVGbA0rGxqS9oQW6ujaBw_003D_003D;
+
+	public _0023_003Dq05OIhf0XidrBt9wJKcvh4A_003D_003D _0023_003DqevljLLjDxmejY9k7_8R9vw_003D_003D;
+}

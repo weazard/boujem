@@ -1,0 +1,14 @@
+/private/tmp/nirmana_loader/bin/Debug/net10.0/nirmana_loader
+/private/tmp/nirmana_loader/bin/Debug/net10.0/nirmana_loader.deps.json
+/private/tmp/nirmana_loader/bin/Debug/net10.0/nirmana_loader.runtimeconfig.json
+/private/tmp/nirmana_loader/bin/Debug/net10.0/nirmana_loader.dll
+/private/tmp/nirmana_loader/bin/Debug/net10.0/nirmana_loader.pdb
+/private/tmp/nirmana_loader/obj/Debug/net10.0/nirmana_loader.GeneratedMSBuildEditorConfig.editorconfig
+/private/tmp/nirmana_loader/obj/Debug/net10.0/nirmana_loader.AssemblyInfoInputs.cache
+/private/tmp/nirmana_loader/obj/Debug/net10.0/nirmana_loader.AssemblyInfo.cs
+/private/tmp/nirmana_loader/obj/Debug/net10.0/nirmana_loader.csproj.CoreCompileInputs.cache
+/private/tmp/nirmana_loader/obj/Debug/net10.0/nirmana_loader.dll
+/private/tmp/nirmana_loader/obj/Debug/net10.0/refint/nirmana_loader.dll
+/private/tmp/nirmana_loader/obj/Debug/net10.0/nirmana_loader.pdb
+/private/tmp/nirmana_loader/obj/Debug/net10.0/nirmana_loader.genruntimeconfig.cache
+/private/tmp/nirmana_loader/obj/Debug/net10.0/ref/nirmana_loader.dll

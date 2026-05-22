@@ -1,0 +1,11 @@
+public sealed class Sound
+{
+	public _0023_003Dqjw2tTjDjDMvqVJqbbbPOQw_003D_003D _0023_003DqSdHLeoyHYNf5hhrYq0T6ww_003D_003D;
+
+	public _0023_003DqK5dlmnbymu0RT_T7wb48OLzVPAWt7Cngn00_0024f1vnyrs_003D _0023_003DqX_sfhsN4VpLGhSKN5Pg3Ww_003D_003D;
+
+	public string _0023_003DqZ95gzEdGmr4pZQvahhuuoA_003D_003D()
+	{
+		return _0023_003DqSdHLeoyHYNf5hhrYq0T6ww_003D_003D._0023_003Dq2RDtpC5z1V_AsnSrFprDlQ_003D_003D;
+	}
+}

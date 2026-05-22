@@ -1,0 +1,12 @@
+public abstract class _0023_003Dqtn9ZYTXp7UwL8vU2ZU4eVHgOtwy0Ju_0024RndOUZtnAiNw_003D
+{
+	public unsafe abstract void _0023_003DqSZS12n_liaXtj430nsVUsg_003D_003D(short* _0023_003Dq4mxUhwVEYxZDWmOjTgyuHA_003D_003D, int _0023_003DqA_pK_0024Gk6CFB0M7hkbzAYdQ_003D_003D, float _0023_003Dq51s990z7cZh_OnPkiZwpUQ_003D_003D, bool _0023_003DqfOeCHqT4h8ak6ea8wmCxwg_003D_003D, bool _0023_003DqNF_0024K2TKj6rVlLGuaOscCfQ_003D_003D);
+
+	public abstract bool _0023_003DqC9oNkbVkCpOCcCHd4AZhwQ_003D_003D();
+
+	public abstract void _0023_003DqV1F0AVDD6il2nfHp74mY1w_003D_003D(double _0023_003DqfUijefXTM8Aegn1MQ0_wTQ_003D_003D);
+
+	public abstract double _0023_003Dq_0024Z7VwcaDYnx9939ijxV6HA_003D_003D();
+
+	public abstract void _0023_003DqbrzhSNYChTcuhPfW2_Vetw_003D_003D();
+}

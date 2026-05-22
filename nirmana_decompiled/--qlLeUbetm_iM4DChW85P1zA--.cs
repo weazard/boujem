@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+
+public sealed class _0023_003DqlLeUbetm_iM4DChW85P1zA_003D_003D
+{
+	public readonly Dictionary<_0023_003DqOgHe_0024MI4JdH5PbTM56sSvw_003D_003D, _0023_003Dq05OIhf0XidrBt9wJKcvh4A_003D_003D> _0023_003DqwofQj2C_0024aS3Ns6Ed5mfH_0024A_003D_003D = new Dictionary<_0023_003DqOgHe_0024MI4JdH5PbTM56sSvw_003D_003D, _0023_003Dq05OIhf0XidrBt9wJKcvh4A_003D_003D>();
+
+	public readonly string _0023_003Dq22pGOU8Q_0024GEBXwP2tN7kLg_003D_003D;
+
+	public readonly float _0023_003DqXzr_wFIWE6WHMhsYXgYAaA_003D_003D;
+
+	public readonly Dictionary<KerningPair, float> _0023_003Dq7ufn6paavF_0024QJKtSy16aUw_003D_003D;
+
+	public readonly Vector2 _0023_003Dq3cOwaW75sudv9lieMt1g6aQwjTasyNPVpFrcYbevBaQ_003D;
+
+	public readonly Vector2 _0023_003DqXG74CWGUrOIm_0024K3VLkL5M6Hhsh_0024Uq7L_0024T67AwWU0l_0024E_003D;
+
+	public _0023_003DqlLeUbetm_iM4DChW85P1zA_003D_003D(string _0023_003DqbpQwJWsR2h1hYwoObVUPSw_003D_003D, _0023_003Dq05OIhf0XidrBt9wJKcvh4A_003D_003D _0023_003Dqy6zAn0D_00240FXB2oe3SG4vgA_003D_003D, float _0023_003DqzxVBGwnMGaWV_664nEImlQ_003D_003D, Dictionary<KerningPair, float> _0023_003DqvIyopT5_NvsElKHt3xiXYw_003D_003D = null)
+		: this(_0023_003DqbpQwJWsR2h1hYwoObVUPSw_003D_003D, _0023_003Dqy6zAn0D_00240FXB2oe3SG4vgA_003D_003D, _0023_003Dqy6zAn0D_00240FXB2oe3SG4vgA_003D_003D, _0023_003Dqy6zAn0D_00240FXB2oe3SG4vgA_003D_003D, _0023_003DqzxVBGwnMGaWV_664nEImlQ_003D_003D, _0023_003DqvIyopT5_NvsElKHt3xiXYw_003D_003D)
+	{
+	}
+
+	public _0023_003DqlLeUbetm_iM4DChW85P1zA_003D_003D(string _0023_003DqFwT7YXR5xptd7Ki8XiMO7w_003D_003D, _0023_003Dq05OIhf0XidrBt9wJKcvh4A_003D_003D _0023_003DqBVrwvDm49ycX5SzzYApaQA_003D_003D, _0023_003Dq05OIhf0XidrBt9wJKcvh4A_003D_003D _0023_003Dqpo5z512Bx0qq7OGvxQ4Y5w_003D_003D, _0023_003Dq05OIhf0XidrBt9wJKcvh4A_003D_003D _0023_003Dqd5VfO8YoD0RdyfBdmIxRmQ_003D_003D, float _0023_003DqFJNo72O7yfvlDLQo6zpwYQ_003D_003D, Dictionary<KerningPair, float> _0023_003Dq7Ue5NYACY_AduDS9VBgpcA_003D_003D = null)
+	{
+		_0023_003DqwofQj2C_0024aS3Ns6Ed5mfH_0024A_003D_003D[(_0023_003DqOgHe_0024MI4JdH5PbTM56sSvw_003D_003D)0] = _0023_003DqBVrwvDm49ycX5SzzYApaQA_003D_003D;
+		_0023_003DqwofQj2C_0024aS3Ns6Ed5mfH_0024A_003D_003D[(_0023_003DqOgHe_0024MI4JdH5PbTM56sSvw_003D_003D)1] = _0023_003Dqpo5z512Bx0qq7OGvxQ4Y5w_003D_003D;
+		_0023_003DqwofQj2C_0024aS3Ns6Ed5mfH_0024A_003D_003D[(_0023_003DqOgHe_0024MI4JdH5PbTM56sSvw_003D_003D)2] = _0023_003Dqd5VfO8YoD0RdyfBdmIxRmQ_003D_003D;
+		_0023_003Dq22pGOU8Q_0024GEBXwP2tN7kLg_003D_003D = _0023_003DqFwT7YXR5xptd7Ki8XiMO7w_003D_003D;
+		_0023_003DqXzr_wFIWE6WHMhsYXgYAaA_003D_003D = _0023_003DqFJNo72O7yfvlDLQo6zpwYQ_003D_003D;
+		_0023_003Dq7ufn6paavF_0024QJKtSy16aUw_003D_003D = _0023_003Dq7Ue5NYACY_AduDS9VBgpcA_003D_003D;
+		_0023_003Dq3cOwaW75sudv9lieMt1g6aQwjTasyNPVpFrcYbevBaQ_003D.X = float.MinValue;
+		_0023_003Dq3cOwaW75sudv9lieMt1g6aQwjTasyNPVpFrcYbevBaQ_003D.Y = float.MinValue;
+		float num = float.MinValue;
+		float num2 = float.MinValue;
+		for (char c = ' '; c < '\u007f'; c = (char)(c + 1))
+		{
+			FontGlyphInfo fontGlyphInfo = _0023_003DqBVrwvDm49ycX5SzzYApaQA_003D_003D._0023_003DqbqpjiIBRae2LT0PWQ_0024_0024CtWP_0024E3ineR_GpLh2eCmlS24_003D(c);
+			_0023_003Dq3cOwaW75sudv9lieMt1g6aQwjTasyNPVpFrcYbevBaQ_003D.X = Math.Max(_0023_003Dq3cOwaW75sudv9lieMt1g6aQwjTasyNPVpFrcYbevBaQ_003D.X, 0f - fontGlyphInfo.OffsetX);
+			_0023_003Dq3cOwaW75sudv9lieMt1g6aQwjTasyNPVpFrcYbevBaQ_003D.Y = Math.Max(_0023_003Dq3cOwaW75sudv9lieMt1g6aQwjTasyNPVpFrcYbevBaQ_003D.Y, 0f - fontGlyphInfo.OffsetY);
+			num = Math.Max(num, fontGlyphInfo.OffsetX + fontGlyphInfo.Width);
+			num2 = Math.Max(num2, fontGlyphInfo.OffsetY + fontGlyphInfo.Height);
+		}
+		_0023_003DqXG74CWGUrOIm_0024K3VLkL5M6Hhsh_0024Uq7L_0024T67AwWU0l_0024E_003D = _0023_003Dq3cOwaW75sudv9lieMt1g6aQwjTasyNPVpFrcYbevBaQ_003D + new Vector2(num, num2);
+	}
+
+	public static List<_0023_003DqZ88UZZm7GmnK0N_Qy1aqVA_003D_003D> _0023_003DqVkMNO4_0024CyFHbL9UuBdqFTw_003D_003D()
+	{
+		return GameLogic._0023_003DqG7TFSM3ZjeboSgKnWHLPxw_003D_003D._0023_003DqCwQiU5v82rdwcsdGeHbO8g_003D_003D;
+	}
+}

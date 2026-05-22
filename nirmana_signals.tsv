@@ -1,0 +1,178 @@
+level_id	level_title	kind	direction	row	name	sequence	highlighted	flag
+1	Infected Transfer Station	Pipeline	Input	6	DEXTRO	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+1	Infected Transfer Station	Pipeline	Input	4	LEVO	RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR	False	False
+1	Infected Transfer Station	Pipeline	Output	5	DOSE	.R.G.R.Y.GG.YY.G.Y.GG.R.G.RR.YY.	False	False
+1	Infected Transfer Station	Matrix	Input	5	DEXTRO	...1.....11....1...11...1.......	False	False
+1	Infected Transfer Station	Matrix	Input	4	LEVO	.1...1................1...11....	False	False
+1	Infected Transfer Station	Matrix	Input	3	MIXED	.......1....11...1...........11.	False	False
+2	Nonrepeating Crystal Field	Pipeline	Input	5	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	True	False
+2	Nonrepeating Crystal Field	Matrix	Input	5	NORTH	..11..................1111......	False	False
+2	Nonrepeating Crystal Field	Matrix	Input	4	EAST	......111..........111....1111..	False	False
+2	Nonrepeating Crystal Field	Matrix	Input	3	SOUTH	....11...11...111...............	False	False
+2	Nonrepeating Crystal Field	Matrix	Input	2	WEST	11.........111...11...........11	False	False
+2	Nonrepeating Crystal Field	Pipeline	Output	8	NORTH	..G...................G.........	False	False
+2	Nonrepeating Crystal Field	Pipeline	Output	6	EAST	......G............G......G.....	False	False
+2	Nonrepeating Crystal Field	Pipeline	Output	4	SOUTH	....G....G....G.................	False	False
+2	Nonrepeating Crystal Field	Pipeline	Output	2	WEST	G..........G.....G............G.	False	False
+3	The Library Planet	Pipeline	Input	7	TEXT	GG..GGG.G...GG.G....G..GGG......	False	False
+3	The Library Planet	Pipeline	Input	5	NOTES	RR...R...RR...RR......R.R...RR..	False	False
+3	The Library Planet	Pipeline	Input	3	INDEX	.Y.....Y.Y...YY.....Y...Y..Y....	False	False
+3	The Library Planet	Pipeline	Output	5	ARCHIVE	GGRRGGGRGRRYGGRGRYYYGYRGGGRYRRYY	False	False
+4	Sister Ship of the U.V.S. Nirmana	Pipeline	Input	6	FORM	GG..GGG..G.GGG.GG.G.G...GGGGG.GG	False	False
+4	Sister Ship of the U.V.S. Nirmana	Pipeline	Input	4	MIND	..R..RRR.RR...RRR.....R..R.R....	False	False
+4	Sister Ship of the U.V.S. Nirmana	Pipeline	Output	6	FORM	GG..GGG..G.GGG.GG.G.G...GGGGG.GG	False	False
+4	Sister Ship of the U.V.S. Nirmana	Pipeline	Output	4	MIND	..R..RRR.RR...RRR.....R..R.R....	False	False
+4	Sister Ship of the U.V.S. Nirmana	Matrix	Output	5	FORM	11..1......111....1.1...1.1.1.11	False	False
+4	Sister Ship of the U.V.S. Nirmana	Matrix	Output	4	MIND	..1....1..1...1.......1.........	False	False
+4	Sister Ship of the U.V.S. Nirmana	Matrix	Output	3	BOTH	.....11..1.....11........1.1....	False	False
+5	Cultural Exchange Nexus	Pipeline	Input	5	DRUGS	YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY	False	False
+5	Cultural Exchange Nexus	Matrix	Input	5	DOSE	.1..11..111..1111..1111111111111	False	False
+5	Cultural Exchange Nexus	Pipeline	Output	7	STEM	.Y..Y...Y....Y.....Y............	False	False
+5	Cultural Exchange Nexus	Pipeline	Output	6	BACK	.....Y...Y....Y.....Y...........	False	False
+5	Cultural Exchange Nexus	Pipeline	Output	5	LEFT	..........Y....Y.....Y..........	False	False
+5	Cultural Exchange Nexus	Pipeline	Output	4	RIGHT	................Y.....Y.........	False	False
+5	Cultural Exchange Nexus	Pipeline	Output	3	FRONT	.......................YYYYYYYYY	False	False
+6	Negated Civilization	Pipeline	Input	6	FORM	G...GGG.G.GGG.GGGG..GGG.GG..G.G.	False	False
+6	Negated Civilization	Pipeline	Input	4	MIND	..R..RR...RRRRR..R.RRR.R..R.R...	False	False
+6	Negated Civilization	Pipeline	Output	6	MIND	R...RRR.R.RRR.RRRR..RRR.RR..R.R.	False	False
+6	Negated Civilization	Pipeline	Output	4	FORM	..G..GG...GGGGG..G.GGG.G..G.G...	False	False
+7	The Dream-Reality Realm	Pipeline	Input	7	WEALTH	G..G...G..G..GGG.GGGG..GGG..GG..	False	False
+7	The Dream-Reality Realm	Pipeline	Input	5	FAME	.R.....RRR..R.RRRRR.R.RR.R.R..R.	False	False
+7	The Dream-Reality Realm	Pipeline	Input	3	POWER	..YY..Y..YYYYY.Y.Y...Y..Y..YYY.Y	False	False
+7	The Dream-Reality Realm	Pipeline	Output	7	WEALTH	..G....GG.G..GGG.GGG.G..G..GGG.G	False	False
+7	The Dream-Reality Realm	Pipeline	Output	5	FAME	..R....RR.R..RRR.RRR.R..R..RRR.R	False	False
+7	The Dream-Reality Realm	Pipeline	Output	3	POWER	..Y....YY.Y..YYY.YYY.Y..Y..YYY.Y	False	False
+8	Alien Mining Colony	Pipeline	Input	7	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+8	Alien Mining Colony	Pipeline	Input	3	+AP	RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR	False	False
+8	Alien Mining Colony	Pipeline	Output	8	NEAR	G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.	False	False
+8	Alien Mining Colony	Pipeline	Output	6	NEAR'	.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G.G	False	False
+8	Alien Mining Colony	Pipeline	Output	4	FAR	.R.R.R.R.R.R.R.R.R.R.R.R.R.R.R.R	False	False
+8	Alien Mining Colony	Pipeline	Output	2	FAR'	R.R.R.R.R.R.R.R.R.R.R.R.R.R.R.R.	False	False
+9	Abandoned Transfer Station	Pipeline	Input	7	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+9	Abandoned Transfer Station	Pipeline	Input	5	TRACE	G..GG.G.GG.GGG.....GG.G...GG.G..	False	False
+9	Abandoned Transfer Station	Pipeline	Input	3	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+9	Abandoned Transfer Station	Pipeline	Output	7	FORM	G..GG.G.GG.GGG.....GG.G...GG.G..	False	False
+9	Abandoned Transfer Station	Pipeline	Output	5	FORM	G..GG.G.GG.GGG.....GG.G...GG.G..	False	False
+9	Abandoned Transfer Station	Pipeline	Output	3	FORM	G..GG.G.GG.GGG.....GG.G...GG.G..	False	False
+10	Ruins of a Lost Civilization	Pipeline	Input	5	SENSE	Y.YYY.RRR.R.Y.Y.YYY.Y.Y.R.R.R.YY	False	False
+10	Ruins of a Lost Civilization	Pipeline	Output	5	SENSE	Y.YYY.RRR.R.Y.Y.YYY.Y.Y.R.R.R.YY	False	False
+10	Ruins of a Lost Civilization	Matrix	Output	5	ALPHA	1.111.......1.1.111.1.1.......11	False	False
+10	Ruins of a Lost Civilization	Matrix	Output	4	ALPHA'	...11............11............1	False	False
+10	Ruins of a Lost Civilization	Matrix	Output	3	ALPHA''	....1.............1.............	False	False
+10	Ruins of a Lost Civilization	Matrix	Output	2	BETA	......111.1.............1.1.1...	False	False
+10	Ruins of a Lost Civilization	Matrix	Output	1	BETA'	.......11.......................	False	False
+10	Ruins of a Lost Civilization	Matrix	Output	0	BETA''	........1.......................	False	False
+11	Home of the Eternal Society	Pipeline	Input	6	SOLAR	YYYYYYYY........YYYYYYYY........	False	False
+11	Home of the Eternal Society	Pipeline	Input	4	SOLAR	YYYYYYYY........YYYYYYYY........	False	False
+11	Home of the Eternal Society	Matrix	Input	5	INNER	..1.11.1111...1...1..111....1111	False	False
+11	Home of the Eternal Society	Matrix	Input	4	OUTER	11....111....1111..111..1..11..1	False	False
+11	Home of the Eternal Society	Pipeline	Output	6	INNER	..Y.YY.YYYY...Y...Y..YYY....YYYY	False	False
+11	Home of the Eternal Society	Pipeline	Output	4	OUTER	YY....YYY....YYYY..YYY..Y..YY..Y	False	False
+12	Hostile Alien Homeworld	Pipeline	Input	5	MEMES	RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR	False	False
+12	Hostile Alien Homeworld	Matrix	Input	5	FIRE	......1.....11...1.........111..	False	False
+12	Hostile Alien Homeworld	Pipeline	Output	8	MEMES	......R.....RR...R.........RRR..	False	False
+12	Hostile Alien Homeworld	Pipeline	Output	6	MEMES	......R.....RR...R.........RRR..	False	False
+12	Hostile Alien Homeworld	Pipeline	Output	4	MEMES	......R.....RR...R.........RRR..	False	False
+12	Hostile Alien Homeworld	Pipeline	Output	2	MEMES	......R.....RR...R.........RRR..	False	False
+13	Phase-Shifted Transfer Station	Matrix	Input	5	PHASE	..1.1.1..1.1...11.111..1111.1..1	False	False
+13	Phase-Shifted Transfer Station	Pipeline	Input	7	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+13	Phase-Shifted Transfer Station	Pipeline	Input	5	+AP	RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR	False	False
+13	Phase-Shifted Transfer Station	Pipeline	Input	3	+VY	YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY	False	False
+13	Phase-Shifted Transfer Station	Pipeline	Output	7	+PR	GGYGYGYGGYGYGGGYYGYYYGGYYYYGYGGY	False	False
+13	Phase-Shifted Transfer Station	Pipeline	Output	5	+AP	RRGRGRGRRGRGRRRGGRGGGRRGGGGRGRRG	False	False
+13	Phase-Shifted Transfer Station	Pipeline	Output	3	+VY	YYRYRYRYYRYRYYYRRYRRRYYRRRRYRYYR	False	False
+14	Graveyard of the Syghinan Empire	Pipeline	Input	5	TRACE	.RY.G..R.Y.R.GG.YYYR...G.GR.Y.R.	False	False
+14	Graveyard of the Syghinan Empire	Pipeline	Output	5	TRACE	.GG.G..G.G.G.GG.GGGG...G.GG.G.G.	False	False
+15	Galactic Barrier	Pipeline	Input	7	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+15	Galactic Barrier	Pipeline	Input	5	+AP	RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR	False	False
+15	Galactic Barrier	Pipeline	Input	3	+VY	YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY	False	False
+15	Galactic Barrier	Pipeline	Output	5	BRIDGE	GRY.GRY.GRY.GRY.GRY.GRY.GRY.GRY.	False	False
+16	Endangered Civilization	Pipeline	Input	5	??	RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR	False	False
+16	Endangered Civilization	Matrix	Input	5	??	11111.11111.11111.11111.11111.11	False	False
+16	Endangered Civilization	Pipeline	Output	7	??	R...R.R...R.R...R.R...R.R...R.R.	False	False
+16	Endangered Civilization	Pipeline	Output	6	??	.R.....R.....R.....R.....R.....R	False	False
+16	Endangered Civilization	Pipeline	Output	5	??	................................	False	False
+16	Endangered Civilization	Pipeline	Output	4	??	..RR....RR....RR....RR....RR....	False	False
+16	Endangered Civilization	Pipeline	Output	3	??	................................	False	False
+17	Home of the Great Council	Pipeline	Input	6	CANON	RG...RRGRRG.R..G.RGGG.G.R.GRR.G.	False	False
+17	Home of the Great Council	Pipeline	Input	4	HERESY	RG...RRGRRG.R..G.RGGG.G.R.GRR.G.	False	False
+17	Home of the Great Council	Pipeline	Output	6	CANON	GG...GGGGGG.G..G.GGGG.G.G.GGG.G.	False	False
+17	Home of the Great Council	Pipeline	Output	4	HERESY	RR...RRRRRR.R..R.RRRR.R.R.RRR.R.	False	False
+18	Spherical Metabolic Object	Pipeline	Input	5	+VY	YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY	False	False
+18	Spherical Metabolic Object	Matrix	Input	5	HIGH	.1111111111..............111111.	False	False
+18	Spherical Metabolic Object	Matrix	Input	4	LOW	............111111111111........	False	False
+18	Spherical Metabolic Object	Pipeline	Output	6	SOUND	.Y.Y.Y.Y.Y..YY..YY..YY...Y.Y.Y..	False	False
+18	Spherical Metabolic Object	Pipeline	Output	4	SOUND'	..Y.Y.Y.Y.Y...YY..YY..YY..Y.Y.Y.	False	False
+19	Gateway to Tenfold Void	Pipeline	Input	6	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	True	False
+19	Gateway to Tenfold Void	Pipeline	Input	4	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	True	False
+19	Gateway to Tenfold Void	Matrix	Input	5	X	1....1......1........1......1...	False	True
+19	Gateway to Tenfold Void	Matrix	Input	4	Y	..1............1......1..11...1.	False	True
+19	Gateway to Tenfold Void	Matrix	Input	3	Z	...1....111.....................	False	True
+19	Gateway to Tenfold Void	Matrix	Input	2	X+Y	.1...........1..1..........1.1..	False	True
+19	Gateway to Tenfold Void	Matrix	Input	1	X+Z	......11...1.....11.1..11.......	False	True
+19	Gateway to Tenfold Void	Matrix	Input	0	Y+Z	....1.........1....1...........1	False	True
+19	Gateway to Tenfold Void	Pipeline	Output	7	X	GG...GGG...GGG..GGG.GG.GG..GGG..	False	False
+19	Gateway to Tenfold Void	Pipeline	Output	5	Y	.GG.G........GGGG..G..G..GGG.GGG	False	False
+19	Gateway to Tenfold Void	Pipeline	Output	3	Z	...GG.GGGGGG..G..GGGG..GG......G	False	False
+20	Devout Transfer Station	Pipeline	Input	5	WORDS	.GGGG.YYYY.GG.YYGG..Y.Y.GGGG....	False	False
+20	Devout Transfer Station	Matrix	Input	5	AMEN	....1............1.........1....	False	False
+20	Devout Transfer Station	Matrix	Input	4	SVAHA	.........1............1.........	False	False
+20	Devout Transfer Station	Pipeline	Output	5	FORM	....GGGG.YYYY....GGGG.YYYY.GGGG.	False	False
+21	Binary Satellite System	Pipeline	Input	6	LIGHT	GG.GG...G.G.......G...GG..GG..G.	False	False
+21	Binary Satellite System	Pipeline	Input	4	SOUND	.....R.....R.R..R..RRR.......R.R	False	False
+21	Binary Satellite System	Pipeline	Output	5	THOUGHT	YY.YYY..Y.YY.Y..Y.YYYYYY..YY.YYY	False	False
+22	Space-Time Anomaly	Pipeline	Input	6	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+22	Space-Time Anomaly	Pipeline	Input	4	+AP	RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR	False	False
+22	Space-Time Anomaly	Pipeline	Output	6	THREAD	GRGRGRGRGRGRGRGRGRGRGRGRGRGRGRGR	False	False
+22	Space-Time Anomaly	Pipeline	Output	4	THREAD'	RGRGRGRGRGRGRGRGRGRGRGRGRGRGRGRG	False	False
+23	Distant Transfer Station	Pipeline	Input	6	MAIN	GYYGYRRRGYRGGRYGRYYGYGYRYYGGGGGR	False	False
+23	Distant Transfer Station	Pipeline	Input	4	BACKUP	YYGGYGRRGGYRGRGRRRGGYYRGGYRYYGGR	False	False
+23	Distant Transfer Station	Pipeline	Output	6	MAIN	.Y.GY.RRG...GR..R..GY....Y...GGR	False	False
+23	Distant Transfer Station	Pipeline	Output	4	BACKUP	.Y.GY.RRG...GR..R..GY....Y...GGR	False	False
+24	Compromised Generation Ship	Pipeline	Input	6	REAL	GGGGRRGGGRGGGRRGRGGGGGRGGGGGGGGG	False	False
+24	Compromised Generation Ship	Pipeline	Input	4	FINITE	GGGRGGGRGGGGGGGRGGGGRRGGGRGRGGGG	False	False
+24	Compromised Generation Ship	Pipeline	Output	6	REAL	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+24	Compromised Generation Ship	Pipeline	Output	4	FINITE	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+25	The Nebula of Re-Observation	Pipeline	Input	7	SENSE	YRGYYGYGYGRYRYRRRYYYYRYYGRRYGRRR	False	False
+25	The Nebula of Re-Observation	Pipeline	Input	5	+PR	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+25	The Nebula of Re-Observation	Pipeline	Input	4	+AP	RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR	False	False
+25	The Nebula of Re-Observation	Pipeline	Input	3	+VY	YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY	False	False
+25	The Nebula of Re-Observation	Pipeline	Output	6	SENSE	YRGYYGYGYGRYRYRRRYYYYRYYGRRYGRRR	False	False
+25	The Nebula of Re-Observation	Pipeline	Output	4	MIRROR	YRGYYGYGYGRYRYRRRYYYYRYYGRRYGRRR	False	False
+26	Holographic Civilization	Pipeline	Input	7	SHAPE	GGGGGGG.GGGGGGG.GGGGGGGGG.GGGGGG	False	False
+26	Holographic Civilization	Pipeline	Input	5	MOTION	YYYYYYYYYY.YYYYYYYYY.YYYYYYYYYYY	False	False
+26	Holographic Civilization	Pipeline	Input	3	DEPTH	RRRRR.RRRRRR.RRRR.RRRR.RRRRR.RRR	False	False
+26	Holographic Civilization	Pipeline	Output	7	SHAPE	RRRRR.RRRRRR.RRRR.RRRR.RRRRR.RRR	False	False
+26	Holographic Civilization	Pipeline	Output	5	MOTION	GGGGGGG.GGGGGGG.GGGGGGGGG.GGGGGG	False	False
+26	Holographic Civilization	Pipeline	Output	3	DEPTH	YYYYYYYYYY.YYYYYYYYY.YYYYYYYYYYY	False	False
+27	Final Transfer Station	Pipeline	Input	8	SNACKS	YY..Y..Y.YY.YY.YY.YY............	False	False
+27	Final Transfer Station	Pipeline	Input	6	SNACKS	YY.YYY..Y.Y.Y...YYYY............	False	False
+27	Final Transfer Station	Pipeline	Input	4	SNACKS	Y.YYYY.YY..Y..YYY..Y............	False	False
+27	Final Transfer Station	Pipeline	Input	2	SNACKS	YYY...Y.YYYYY...YY.Y............	False	False
+27	Final Transfer Station	Pipeline	Output	8	SNACKS	....................YYYYYYYYYYYY	False	False
+27	Final Transfer Station	Pipeline	Output	6	SNACKS	....................YYYYYYYYYYYY	False	False
+27	Final Transfer Station	Pipeline	Output	4	SNACKS	....................YYYYYYYYYYYY	False	False
+27	Final Transfer Station	Pipeline	Output	2	SNACKS	....................YYYYYYYYYYYY	False	False
+28	The Edge of the Universe	Pipeline	Input	5	MIND	.RRGG.GYGG.GGRG..GGRY.YYYG.GRYG.	False	False
+28	The Edge of the Universe	Pipeline	Output	8	WHO	....R....G....G.....G....Y....G.	False	False
+28	The Edge of the Universe	Pipeline	Output	6	WHAT	....R....Y....G.....G....Y....R.	False	False
+28	The Edge of the Universe	Pipeline	Output	4	WHERE	....G....G....R.....R....Y....Y.	False	False
+28	The Edge of the Universe	Pipeline	Output	2	WHEN	....G....G....G.....Y....G....G.	False	False
+29	Gateway to Nirodha	Pipeline	Input	8	+X	.G........G....G......G.........	True	False
+29	Gateway to Nirodha	Pipeline	Input	7	-X	..G....G.G...G.....G.G....G.....	True	False
+29	Gateway to Nirodha	Pipeline	Input	6	+Y	.....G...........G.....G....G...	True	False
+29	Gateway to Nirodha	Pipeline	Input	5	-Y	G...................G.........G.	True	False
+29	Gateway to Nirodha	Pipeline	Input	4	+Z	...G....G..G......G.............	True	False
+29	Gateway to Nirodha	Pipeline	Input	3	-Z	......G.....G............G.G.G..	True	False
+29	Gateway to Nirodha	Pipeline	Input	2	T	....G.........G.G.......G......G	True	False
+29	Gateway to Nirodha	Pipeline	Input	100	X/Y/Z/T	GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG	False	False
+29	Gateway to Nirodha	Pipeline	Output	8	+X	.R........R....R......R.........	False	False
+29	Gateway to Nirodha	Pipeline	Output	7	-X	..R....R.R...R.....R.R....R.....	False	False
+29	Gateway to Nirodha	Pipeline	Output	6	+Y	.....R...........R.....R....R...	False	False
+29	Gateway to Nirodha	Pipeline	Output	5	-Y	R...................R.........R.	False	False
+29	Gateway to Nirodha	Pipeline	Output	4	+Z	...R....R..R......R.............	False	False
+29	Gateway to Nirodha	Pipeline	Output	3	-Z	......R.....R............R.R.R..	False	False
+29	Gateway to Nirodha	Pipeline	Output	2	T	....R.........R.R.......R......R	False	False
+30	The End of the Universe	Pipeline	Input	6	CAUSE	.GG...GGGG...GG...GGG...GGGGG...	False	False
+30	The End of the Universe	Pipeline	Input	4	EFFECT	...GG...GGGG...GG...GGG...GGGGG.	False	False
+30	The End of the Universe	Pipeline	Output	5	SENSE	..GG...GGGG...GG...GGG...GGGGG..	False	False

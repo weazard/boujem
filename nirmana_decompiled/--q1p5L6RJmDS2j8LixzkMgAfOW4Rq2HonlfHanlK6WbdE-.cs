@@ -1,0 +1,16 @@
+public sealed class _0023_003Dq1p5L6RJmDS2j8LixzkMgAfOW4Rq2HonlfHanlK6WbdE_003D
+{
+	public DrawConfig _0023_003DqR26fP5g1849uwHYU0DMOBQ_003D_003D;
+
+	public Maybe<Color> _0023_003Dqz7eZmw_SPkndz2fmIZxHiA_003D_003D = _0023_003Dqpr8f6FatmdM_0024dzy_8tomNg_003D_003D._0023_003DqAZSMMsi6BcX2bhwctPD4jw_003D_003D;
+
+	public bool _0023_003Dq7wVOTh4a_0024R7LS9wK6pno77z7_OYWhoL5kVb5mVydg4Q_003D;
+
+	public _0023_003Dqtk86LHjPrmsq8m7xPwSWBA_003D_003D _0023_003DqDhZ_H5uDV1IWkYPdd3NfSA_003D_003D;
+
+	public int _0023_003DqbXNjSb0B6TwE3Gg9RCOFmw_003D_003D;
+
+	public int _0023_003DqBCPz_0024EbAQuV6Fck30s_0024Vnw_003D_003D;
+
+	public int _0023_003DqyggCX78MzjqSxourw2dvjQ_003D_003D;
+}

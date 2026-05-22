@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+
+public sealed class _0023_003Dqw3yTI2QACGWJGaWOtsFfVA_003D_003D
+{
+	public _0023_003Dqp1ASTXIOyYyGKEYpaFXL_0024tR5mXd_FhvAC69_MW_GNwI_003D _0023_003DqXJ0g7Cy5yDqpG_0024ELmuIxig_003D_003D;
+
+	public bool _0023_003DqmDY1DE1nWsi9uspTpzTim4E2dC2i1abmwzdgOKRLmOztascNAlDBWAUtzikBAQrs;
+
+	public int _0023_003Dqyb2LMOPA4VcQMNRPtTkoeWATWJMG7Xv1H2KXQDcPYsI_003D;
+
+	public _0023_003DqzCcvhCBfOUUdBqhSoZ7tZA_003D_003D _0023_003Dqr9t8iMQhT22RP_Y75oAwbA_003D_003D;
+
+	public Range2 _0023_003Dq4j__izN6_JAhRu6dqg0dyFUU_0024Q3_0024BxJpe3xRdj38Zfs_003D;
+
+	public _0023_003DqIbrUToI5cSTaDCNj5eVWrZ_0024QRhPoZEGWmBZyTWyzg4U_003D _0023_003DqkAp0VR6z1QnpBlUmo3b97idFxyYgX_00243Wilj5eHa756A_003D;
+
+	public _0023_003DqnPB4hTuJE892ygKxfLR8fw_003D_003D _0023_003Dq_0024KtieeyriyKLmWpzbTL6JA_003D_003D;
+
+	public Texture[] _0023_003DqrhQ_00248IMeEJtk5y5PN1KVzEk6JbDXoZjKvARcmDQtpBY_003D;
+
+	public _0023_003DqQEGUea7pvsCvLoJkRoAtVQ_003D_003D[] _0023_003DqyB41Sxmg3O8pyHQ0ilhgqv_0024VNaPt5LcZmm6FnKkpoDs_003D;
+
+	public float _0023_003DqHi1SpQ8XLMJTPgB77zmS2w_003D_003D;
+
+	public Bounds2 _0023_003Dq3qvPJxgtgDVAYfQxZC7zlLp3kq3F_0024adVqwQ4Ka52lPQ_003D;
+
+	public Matrix4 _0023_003DqJNDbblsYCJpNw0M3wlp97NqQCk55g3yVD8QlibyCMkk_003D;
+
+	public Matrix4 _0023_003DqLerdufEXC8bdasI0wAd0djy2XjNrRNpAhIeGt4s6fGM_003D;
+
+	public Matrix4 _0023_003DqhZE_00246K7LC6k1GHcaoohj6ugDlXin3a3lz_0024vP0CUI_8M_003D;
+
+	public Color _0023_003DqtdnI0nOjfnrbKtfceJqwRQ_003D_003D;
+
+	public IntPtr _0023_003DqjKeNi2CFJ7YUExj9pCeF_0024AU9Ww13RAC_WlvxkyKSHGM_003D;
+
+	public IntPtr _0023_003Dq0o__002446k5RrzDgcXO4z_eiNsq_0024Eib0zLfuQFX_0024F8nM_0024A_003D;
+
+	public IntPtr _0023_003DqUyfYWzKQmfVRZ38nYpj6ILCKRkIpfrUocyBLGf_Ihz8_003D;
+
+	public List<_0023_003DqnlptjTovrJKlgGixykCSzw_003D_003D> _0023_003DqSm0XnUP8yHO6lax4MLaRbLH_jHUd6WaCu_cUhkkkgPY_003D = new List<_0023_003DqnlptjTovrJKlgGixykCSzw_003D_003D>();
+
+	public List<_0023_003DqnlptjTovrJKlgGixykCSzw_003D_003D> _0023_003DqvSlQ5odFdjbVUTbaZiic9XHfyFXITY4z1dUxKIrlrnM_003D;
+
+	public List<_0023_003DqnlptjTovrJKlgGixykCSzw_003D_003D> _0023_003Dq6HWq6vLrTtb5cDoGkxa7DJCUaGLrsH4H2SUKJZ4xaW4_003D = new List<_0023_003DqnlptjTovrJKlgGixykCSzw_003D_003D>();
+
+	public List<_0023_003DqnPB4hTuJE892ygKxfLR8fw_003D_003D> _0023_003DqDO_UnY_1sTlMYC9LZPJJS9bVtrFalSbOuzcX7on0Hq4_003D = new List<_0023_003DqnPB4hTuJE892ygKxfLR8fw_003D_003D>();
+}

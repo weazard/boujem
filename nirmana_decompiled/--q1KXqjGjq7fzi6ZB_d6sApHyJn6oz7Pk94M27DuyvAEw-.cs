@@ -1,0 +1,26 @@
+using System.Collections.Generic;
+
+public sealed class _0023_003Dq1KXqjGjq7fzi6ZB_d6sApHyJn6oz7Pk94M27DuyvAEw_003D
+{
+	public Stack<DrawConfig> _0023_003DqQAsRCaK8ES_7712AxSKGIg_003D_003D = new Stack<DrawConfig>();
+
+	public List<_0023_003Dq1p5L6RJmDS2j8LixzkMgAfOW4Rq2HonlfHanlK6WbdE_003D> _0023_003Dq_65jdow0b4R5w7Uy4j7EUg_003D_003D = new List<_0023_003Dq1p5L6RJmDS2j8LixzkMgAfOW4Rq2HonlfHanlK6WbdE_003D>();
+
+	public DrawConfig _0023_003DqXkd2l7omU5x6XjhQDaDb0A_003D_003D;
+
+	public _0023_003Dqtk86LHjPrmsq8m7xPwSWBA_003D_003D _0023_003DqqqXH_0024eJ8GlQNAVlrse_51w_003D_003D;
+
+	public global::_0023_003DqA5_uG21KHmYy3mbn9V6HhbxpVJ8NnNuWXkOcOfFI_wc_003D<MeshVertex> _0023_003DqHssO0uX0R8ln3ILZcDvMIw_003D_003D = new global::_0023_003DqA5_uG21KHmYy3mbn9V6HhbxpVJ8NnNuWXkOcOfFI_wc_003D<MeshVertex>(4096);
+
+	public global::_0023_003DqA5_uG21KHmYy3mbn9V6HhbxpVJ8NnNuWXkOcOfFI_wc_003D<ushort> _0023_003Dq8KC3BJ_002455WLdjwUVDSmvkw_003D_003D = new global::_0023_003DqA5_uG21KHmYy3mbn9V6HhbxpVJ8NnNuWXkOcOfFI_wc_003D<ushort>(6144);
+
+	public int _0023_003DqaYXVQhIxMbnbIRnipgymGeIqN_00246JwbTmkvZeN4drG9c_003D;
+
+	public int _0023_003DqZwCHaXTir2KzwGwLX0Cd5ICeWQ_iGR_0024KO6kqoAUsOO8_003D;
+
+	public Maybe<Color> _0023_003DqAhPjnIFKfpy0i_0024obT5BQaw_003D_003D = _0023_003Dqpr8f6FatmdM_0024dzy_8tomNg_003D_003D._0023_003DqAZSMMsi6BcX2bhwctPD4jw_003D_003D;
+
+	public bool _0023_003DqUM9NJowbihpeBEsFIRZYBrkTdOqz2qMjmiv_0024oCYaG4c_003D;
+
+	public _0023_003DqnPB4hTuJE892ygKxfLR8fw_003D_003D _0023_003DqHeH8ru3Exy6ZACsnTkJNPA_003D_003D;
+}

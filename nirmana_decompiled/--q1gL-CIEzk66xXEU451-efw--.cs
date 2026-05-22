@@ -1,0 +1,5 @@
+public enum _0023_003Dq1gL_0024CIEzk66xXEU451_0024efw_003D_003D
+{
+	R = 1,
+	RGBA
+}

@@ -1,0 +1,392 @@
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Runtime.InteropServices;
+using System.Text;
+using SDL2;
+
+public sealed class _0023_003DqFQDTvNSyIN2hTxWg1OPv0ZQ08hxodUEm2RIbt2h5cCk_003D : _0023_003Dqp1ASTXIOyYyGKEYpaFXL_0024tR5mXd_FhvAC69_MW_GNwI_003D
+{
+	private static class _0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D
+	{
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "Initialize")]
+		public static extern void _0023_003DqOBVRpjQJPBXAZ1gVwHrBhQ_003D_003D(bool _0023_003Dq_0024G9ZM5xikPA1Sopae_00243MkoPQOUl2gpmmI3YYR7iRQTQ_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "InitializeWindow")]
+		public static extern IntPtr _0023_003DqAwu1CI4Y0wO9qjii6VRQcenit9euPnQMo6yojaJjpZo_003D(IntPtr _0023_003Dq_0024YQiCkgnpuMm6CZmqQ_Ckg_003D_003D, int _0023_003Dq5krxJ9_WX2WBSU3D_0024Ny91A_003D_003D, int _0023_003DqXJQ0YmJPfBkDDOsHODApTA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "GetAdapterInfo")]
+		public static extern IntPtr _0023_003Dq_nlvUpukKhOb8NFuVBcdig_003D_003D(uint _0023_003DqBsJpWOW3JOS7oh4e_pdx_g_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CreateShader")]
+		public static extern IntPtr _0023_003Dq_vdixguuK3lbTpP3oPDYeA_003D_003D(byte[] _0023_003Dqjf7VR8uvuSybMLGAyLKO6Q_003D_003D, int _0023_003DqkJ5VkLN6uv_LC8FMuBITREwKd_1ncn1UYnA9A_0024ViuD4_003D, byte[] _0023_003DqxssVOmNFp8Sr_5GT2stQbA_003D_003D, int _0023_003DqHur8Pt_RwTYfKSRWPWt_Q6QMoUhRdhqHalln4AZdgSk_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "DestroyShader")]
+		public static extern void _0023_003DqGTc2EsWksP1XvOHEokOYcA_003D_003D(IntPtr _0023_003Dq05UTl2JNq5CHSJqDtbHqWw_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CreateTexture")]
+		public static extern IntPtr _0023_003DqZloxkYPKhCrUysoBw9iP2g_003D_003D(_0023_003Dq1gL_0024CIEzk66xXEU451_0024efw_003D_003D _0023_003DqCgRgGJjsEI3GZyiGGFRN8w_003D_003D, byte[] _0023_003DqVWj7pWrUoLHoue25H6PB3g_003D_003D, uint _0023_003Dq1tzHstYnVH6UpN8JOt93hg_003D_003D, uint _0023_003DqE3fzhIUt2h7oI_0024YogKxEOA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CreateDynamicTexture")]
+		public static extern IntPtr _0023_003DqvuL5FGSGBFflPzgbEH3p8p8JAzKuDyc2yc_0024DfmblWEg_003D(uint _0023_003DqQhaJti1kl8Iowjo3BaY_0024ag_003D_003D, uint _0023_003DqX2ev5tGoBw3vNZVApzR3cg_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetTextureData")]
+		public static extern void _0023_003Dq2zgC2JuNUK1cV3kzaIB5TA_003D_003D(IntPtr _0023_003Dqa3XIqlYLx0yyCYxUJi_0024D8g_003D_003D, uint _0023_003DqL17y4nHYg4JP_G3Kuc4cUQ_003D_003D, uint _0023_003Dq_0024bmZLCrzmT_u16UgXDZZSg_003D_003D, uint _0023_003Dqr_0024OWkNZVkLqo6X37qiiKfQ_003D_003D, uint _0023_003Dqi_0024Wdbt_0024aRi8Sd7FtToLTPQ_003D_003D, byte[] _0023_003DqqvOMgg2iwup0t8jLh04AZA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "GetTextureData")]
+		public static extern void _0023_003Dq0CNDCrKEl_0024zcTfKWYRQakg_003D_003D(IntPtr _0023_003DqTWh_PxJjpA7mZalWJy57fQ_003D_003D, byte[] _0023_003Dq9WokigReV0_xfN5jtJSUiA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CopyTextureData")]
+		public static extern void _0023_003Dqq5ragwWK2LCG1NbusO99hYMn5DZMmhmMGxVzqwpkEd4_003D(IntPtr _0023_003DqutZfwWPa2_0024GAZZ5VKLEZYAIgzWFo_XTSWlFXKc_eY9Y_003D, IntPtr _0023_003DqZT3R22MjH47GnnUazVP_0024Fw_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "DestroyTexture")]
+		public static extern void _0023_003DqExiLwhdkPtPqfHVkgK11kg_003D_003D(IntPtr _0023_003DqR0Wt55jAa_00244vUBD0pltexg_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CreateMesh")]
+		public static extern void _0023_003DqygvYeFrdV1dkPIIfBwoRxw_003D_003D(MeshVertex[] _0023_003DqnLxOFxeIx3ZdKCIneUKxTQ_003D_003D, uint _0023_003DqMy0SIjQENnbWgYB37vk0lQ_003D_003D, ushort[] _0023_003DqWCKTsZExaPT_0024TJvw0_pDBg_003D_003D, uint _0023_003DqpgNys1l7fWjYn9rV6kR77w_003D_003D, out IntPtr _0023_003DqO_0024OiUEfeARFp9kxTgENWYA_003D_003D, out IntPtr _0023_003Dq5Yez8mzcefbeSD_0024Ua4R1Og_003D_003D, out IntPtr _0023_003DqaPQie2orVmTa4bCwY1WsAA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CreateDynamicMesh")]
+		public static extern void _0023_003DqacAnyuKyomOWzuxWCAN2Ny7k06mDGqGu1OOv9EwV6L0_003D(uint _0023_003DqSyegmJu7dRQv2U1J6ptILQ_003D_003D, uint _0023_003DqqUOB6alxU0SX58s5Aul_00240Q_003D_003D, out IntPtr _0023_003DqKTZuM5ar_Y5HFxwcPsbjyw_003D_003D, out IntPtr _0023_003DqKWmh_0024FPERbI2_00245SZ4pGYmA_003D_003D, out IntPtr _0023_003DqlkhlOwrSDVVHwpBngam4wQ_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetMeshData")]
+		public unsafe static extern void _0023_003DqPdaoSR1dbv36evSuSn4omw_003D_003D(IntPtr _0023_003Dq0fFX3abNhHSqfeKXE525hA_003D_003D, IntPtr _0023_003DqTOrNmTqBsdJgX3hWsXSwwg_003D_003D, MeshVertex* _0023_003DqUvTfhvPCP6OR3p1dlYTlQg_003D_003D, int _0023_003Dq60SIZuYjdn3qlK5qEE07AA_003D_003D, ushort* _0023_003Dq9_0024pzmlRSh5tLk_DeRN69NQ_003D_003D, int _0023_003Dq142zvF9uSDpeEISEnt__3g_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "CreateRenderTarget")]
+		public static extern IntPtr _0023_003DqWs6wITvNQmPVjiDuUUaOV9wRCkUtyuFvNKQgNURaL0Y_003D(uint _0023_003DqGJoHgbvGFQPYNNsO0MhpYg_003D_003D, uint _0023_003Dqd0wq74S319xPyVwDACjVIQ_003D_003D, int _0023_003DqS5we23RBLOdBaVxSSnTUgw_003D_003D, out IntPtr _0023_003DqMJRcph7gRNpS_00244oSQKi0CA_003D_003D, out IntPtr _0023_003Dqx_HijOGssztVGzDF0HElICIX7CExkmFWzXuWjXF6uwk_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "DestroyRenderTarget")]
+		public static extern void _0023_003DqfSiidMuwFbJ_0024tlPclMHtRHvD1cuspTCUg_q43YT_0024N_0024o_003D(IntPtr _0023_003DqWqKeIO5XnHU6flOUrb9aRA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "ClearWindow")]
+		public static extern void _0023_003DqHELADyrGkImZZN4yB_0024FUIA_003D_003D(IntPtr _0023_003DqncZ4lAyoJ5pOQCz3gyCecQ_003D_003D, ref Color _0023_003DqSLUMA5ahsgFY6G2bJFyw_0024w_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "ClearRenderTarget")]
+		public static extern void _0023_003DqvThVQ5joGOqZIDtj6AFCpIoI26_0024HxydT_00242uQkbb2NRA_003D(IntPtr _0023_003Dqg20mMwwtJV77GnZ5CYtYGw_003D_003D, ref Color _0023_003Dqb2Owam3owXOIwVs5yKbh5w_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "ClearDepthBuffer")]
+		public static extern void _0023_003DqQ5jrOO75zZBKrEf7vNQErxx61FSyqxJRJSDxHI4gQvc_003D(IntPtr _0023_003Dq8_mCm3NvC2UKWo2HZSyZjQ_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "ClearStencilBuffer")]
+		public static extern void _0023_003Dq6pLrIjQ_0024bdZppehmhroEcPeX4ZeyhTwbd_0024WLmpESdqQ_003D(IntPtr _0023_003DqKGjBhtTZXjBIHmkPoRbTbQ_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetRenderTargetToWindow")]
+		public static extern void _0023_003DqgtlOCXP5g07e3Sa43N2pNF7HMpky0IjnclY5pzoqMsQ_003D(IntPtr _0023_003Dq7aFw9Z1KLgwkLwWqkUMgvg_003D_003D, float _0023_003Dq345NMsRDJus4WQG_0024xabNJg_003D_003D, float _0023_003DqjFi0b7LslQJUDMqDPQ8hwQ_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetRenderTarget")]
+		public static extern void _0023_003DqMG6mPhqzbDRoOmDNITQ_0024jKNU4ZPrBi_jjW_0024tN_0024bBufY_003D(IntPtr _0023_003DqKGjBhtTZXjBIHmkPoRbTbQ_003D_003D, float _0023_003DqviJJ5c4bxavvl9Nqyv7yqw_003D_003D, float _0023_003DqyLvoOwUVf0GyA7h5z027Iw_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetBackfaceCullingMode")]
+		public static extern void _0023_003DqPbLWS8sgEpyw1WTiawjbX3b4hR_00243BEnvh2_CyvO1HA4_003D(bool _0023_003DqRyVo4oA5nmS5Le2yL8sTmA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetScissorRect")]
+		public static extern void _0023_003Dq0Ay0cYMS7tMWTUiSpX0gng_003D_003D(int _0023_003DqWRnLRUcPoqE1rFnYkOVbHg_003D_003D, int _0023_003DqFBoHqALft9qW41VClN_0024YtQ_003D_003D, int _0023_003DqpcP_0024B8xw_WMbnhcPo_O_Vw_003D_003D, int _0023_003DqpE4FGHEZjj26dOIKtvH2Ug_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetDepthStencilMode")]
+		public static extern void _0023_003Dqfe1ED_0024qhBZp9SdNTAu6Xb1Ab7vnqGK7fhDaQad_0024ApK0_003D(_0023_003DqIbrUToI5cSTaDCNj5eVWrZ_0024QRhPoZEGWmBZyTWyzg4U_003D _0023_003DqhWxEeOcXQDYgzLu8Otrgzg_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetShader")]
+		public static extern void _0023_003DqgGl1nF0fA7TOvlxgwNhPzg_003D_003D(IntPtr _0023_003DqMHuR8cBJBjAQCfL_ZsioyQ_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetTextures")]
+		public static extern void _0023_003DqEuRkCuV9lKUcqxSIbeR0BA_003D_003D(IntPtr[] _0023_003DqDlUrDH4U9rboAwDaeJi4zQ_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetSamplers")]
+		public static extern void _0023_003DqWkK9FWvYW2_yCpQ1QPU23A_003D_003D(_0023_003DqQEGUea7pvsCvLoJkRoAtVQ_003D_003D[] _0023_003DqmQSik4b13HsSUWPPtTPCGA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetPerFrameConstants")]
+		public static extern void _0023_003DqVv8YGdWJaVkIUXakf3ADXKl3vq_0024n9Q7CwPSbjLNkS64_003D(float _0023_003DqWfFKNY0t36P2Xi4kGokQ2g_003D_003D, _0023_003DqmUeB5OhdU5Et8IMU6Bk6Lw_003D_003D _0023_003Dqfi2uaGd4O_00244JXV89jjUsTQ_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetPerCameraConstants")]
+		public static extern void _0023_003DqFhMBbiIVNowvO9_0024xSPHk8sJ8c9vu7TuzArw8qllaIfY_003D(ref Matrix4 _0023_003DqgfuoGkeJ0f_0024zusrSvAO5vQp_0024Vaw_0024JLF7SJZRxrXqJmI_003D, ref Matrix4 _0023_003Dqnz0Lb39uD8pEZhTR1bLH1A_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetPerMeshConstants")]
+		public static extern void _0023_003Dqmi66R6oDV_7wzF3qnGTDRbGXjDyCqLVV8_H_QeCSfaI_003D(ref Matrix4 _0023_003DqbAeLn9Q_gKFTedao8FJyvw_003D_003D, ref Color _0023_003DqjOxzegdDtET6Xrkj0dfgyA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetMesh")]
+		public static extern void _0023_003DqhLpi3grJUIpxywOYIc9B7w_003D_003D(IntPtr _0023_003DqQ8CHarwnwGfDYURrQuH_0024kg_003D_003D, IntPtr _0023_003DqxIZxQhR_0024yvGfFG92FUkS6w_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "DrawSubmesh")]
+		public static extern void _0023_003Dq9z19Ii12WAnNRHGP_0024foHOA_003D_003D(uint _0023_003DqZxwA7pEoHrFC30A8wOqrxA_003D_003D, uint _0023_003DqhTF89tot95L_0024mz4s_00243Q9cw_003D_003D, int _0023_003DqGkoYTYuMviQn_5MgftjwyQ_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "Present")]
+		public static extern void _0023_003DqDfemnIeQmjlEpAFPUz9x8A_003D_003D(IntPtr _0023_003Dq8Mv_0024NvhUp1SOF72htzastg_003D_003D, uint _0023_003Dqtnxsgmnyr470DcgqDV68Ig_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "OnWindowResize")]
+		public static extern void _0023_003DqswvGllJzJ4xJ6cIcmvvjHA_003D_003D(IntPtr _0023_003Dqfp4kZWap4mDyPLtegYZ3tw_003D_003D, int _0023_003DqNtpvd0kIdm7MefsjbMKRHQ_003D_003D, int _0023_003DqOTU5sTAm3ul6EH75Fi0FiA_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "SetTextureDebugName")]
+		public static extern void _0023_003DqlfTaM9tCpMsdc4C92fC0q5M_0024rCWRC1W262YN0WmOve0_003D(IntPtr _0023_003DqvPj7_0024Nn68YyyflagcV0Esg_003D_003D, [MarshalAs(UnmanagedType.LPStr)] string _0023_003DqfSRknO6J2kskywdx9RciQg_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "InsertDebugMarker")]
+		public static extern void _0023_003DqnYtLeghjKiE8pV6vJyntYpHX66CE3eoUUrZjvb7yYlc_003D([MarshalAs(UnmanagedType.LPWStr)] string _0023_003DqbfIr2x14ZdWxMYXntz1Iuw_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "BeginDebugRegion")]
+		public static extern void _0023_003Dqka05fIBwJ_gdPDwaZRv61rEqomrqy2md8oqJdmj6hbI_003D([MarshalAs(UnmanagedType.LPWStr)] string _0023_003Dq1cw2ZDm1vq8QSVjHzaCCVw_003D_003D);
+
+		[DllImport("Renderer_D3D11", CallingConvention = CallingConvention.Cdecl, EntryPoint = "EndDebugRegion")]
+		public static extern void _0023_003DqOs59hXU2c1Qq6TpPDfR2cw_003D_003D();
+	}
+
+	public void _0023_003DqRGmZPKykn_JfpwJ6OhrXbg_003D_003D()
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqOBVRpjQJPBXAZ1gVwHrBhQ_003D_003D(_0023_003Dqjtd0RhaH_eDUMwKnGl0SnA_003D_003D._0023_003DqLtgopwEhYwNzslZqvv9JMvmX62fD95nWZYg4e7x9hF4_003D);
+		StringBuilder stringBuilder = new StringBuilder();
+		uint num = 0u;
+		while (true)
+		{
+			string text = Marshal.PtrToStringAnsi(_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dq_nlvUpukKhOb8NFuVBcdig_003D_003D(num));
+			if (text == null)
+			{
+				break;
+			}
+			stringBuilder.Append(string.Format(_0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709749), num));
+			stringBuilder.Append(text + _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065774946));
+			num++;
+		}
+		GameLogic._0023_003DqG7TFSM3ZjeboSgKnWHLPxw_003D_003D._0023_003Dqr_R_kaNL5KYETxBrxMTZ3bcvMwGywHabvkJ7f3GdEwU_003D = stringBuilder.ToString();
+	}
+
+	public IntPtr _0023_003Dq_0024yHvn_0024nJ0HtT2TrJw0WLbkllHSGevu12wif8MzgYQ5M_003D(IntPtr _0023_003Dqb4Wqb7EwSctyFAQqfg9W9g_003D_003D, int _0023_003DqrfVxukfC464YtLzbT1LyjA_003D_003D, int _0023_003DqBwqnXe90a_F_0024djSEXud90Q_003D_003D)
+	{
+		SDL._0023_003DqI33NWieXnCQkSiwkx_0024q9Tw_003D_003D info = default(SDL._0023_003DqI33NWieXnCQkSiwkx_0024q9Tw_003D_003D);
+		SDL.SDL_GetWindowWMInfo(_0023_003Dqb4Wqb7EwSctyFAQqfg9W9g_003D_003D, ref info);
+		return _0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqAwu1CI4Y0wO9qjii6VRQcenit9euPnQMo6yojaJjpZo_003D(info._0023_003Dq2ORpnsoTTmK7yinXPiYMcw_003D_003D._0023_003DqMhurWzIqfOavMTwW_0024eHjrQ_003D_003D._0023_003Dq1kYQA9_RHumwMb_OSG51kw_003D_003D, _0023_003DqrfVxukfC464YtLzbT1LyjA_003D_003D, _0023_003DqBwqnXe90a_F_0024djSEXud90Q_003D_003D);
+	}
+
+	public bool _0023_003DqRPD4aFXEYzBsipnR81Mccg_003D_003D(_0023_003DqnPB4hTuJE892ygKxfLR8fw_003D_003D _0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D)
+	{
+		string path = Path.Combine(_0023_003DqaMyRIiIVSoY8bVD5lt24uw_003D_003D._0023_003Dq3OoYNllhnAYBu3onh_zX1g_003D_003D, _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709788));
+		string text = Path.Combine(path, _0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003DqnGRLEAe4WxenJOq8J8XhnVGYy1DUb_ayifTy7Tj7MfE_003D + _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709802));
+		string text2 = Path.Combine(path, _0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003Dqan4BNJnlqBgBEYKUFa4qlVOHxecg2JSjMqz794rChVs_003D + _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709802));
+		DateTime dateTime = new DateTime(Math.Max(File.GetLastWriteTime(text).Ticks, File.GetLastWriteTime(text2).Ticks));
+		if (dateTime > _0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003DqiN9Ke5v7kcpHZBeDEQCluEH6WmwGs3oA_daSOguTGFg_003D)
+		{
+			_0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003DqiN9Ke5v7kcpHZBeDEQCluEH6WmwGs3oA_daSOguTGFg_003D = dateTime;
+			if (_0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003DqTGtMVuoGUdKNuEzB0G33dg_003D_003D != IntPtr.Zero)
+			{
+				_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqGTc2EsWksP1XvOHEokOYcA_003D_003D(_0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003DqTGtMVuoGUdKNuEzB0G33dg_003D_003D);
+			}
+			string text3 = Path.ChangeExtension(text, _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709822));
+			string text4 = Path.ChangeExtension(text2, _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709822));
+			if (_0023_003Dqjtd0RhaH_eDUMwKnGl0SnA_003D_003D._0023_003DqV10ldLOGxJb9A8CxF1b6eA_003D_003D)
+			{
+				_0023_003DqWfC64bomrnA5cTgy9vRbbQ_003D_003D(text, _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709815), _0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003DqnGRLEAe4WxenJOq8J8XhnVGYy1DUb_ayifTy7Tj7MfE_003D, text3);
+				_0023_003DqWfC64bomrnA5cTgy9vRbbQ_003D_003D(text2, _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709830), _0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003Dqan4BNJnlqBgBEYKUFa4qlVOHxecg2JSjMqz794rChVs_003D, text4);
+			}
+			byte[] array = File.ReadAllBytes(text3);
+			byte[] array2 = File.ReadAllBytes(text4);
+			_0023_003Dqe2TMPflkG6W0W4ZYauj_0024VQ_003D_003D._0023_003DqTGtMVuoGUdKNuEzB0G33dg_003D_003D = _0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dq_vdixguuK3lbTpP3oPDYeA_003D_003D(array, array.Length, array2, array2.Length);
+			return true;
+		}
+		return false;
+	}
+
+	public void _0023_003Dq0hmt7oMVpJ3Cv8nQzROuzw_003D_003D(IntPtr _0023_003DqiIH1qup_00242H3qFFBsHzoyYw_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqGTc2EsWksP1XvOHEokOYcA_003D_003D(_0023_003DqiIH1qup_00242H3qFFBsHzoyYw_003D_003D);
+	}
+
+	public IntPtr _0023_003DqsvwgnIRufl59elnSXtleiQ_003D_003D(_0023_003Dq1gL_0024CIEzk66xXEU451_0024efw_003D_003D _0023_003DqoPUnOFhkh7YZ9_0024DdGpMd8Q_003D_003D, byte[] _0023_003DqCMokSYbP5AtdyiEX2Xwxsw_003D_003D, uint _0023_003DqUOMLCZpAe35GSjQYnOtEXw_003D_003D, uint _0023_003DqKmLMTChomuor_0024f5ufdWREg_003D_003D)
+	{
+		return _0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqZloxkYPKhCrUysoBw9iP2g_003D_003D(_0023_003DqoPUnOFhkh7YZ9_0024DdGpMd8Q_003D_003D, _0023_003DqCMokSYbP5AtdyiEX2Xwxsw_003D_003D, _0023_003DqUOMLCZpAe35GSjQYnOtEXw_003D_003D, _0023_003DqKmLMTChomuor_0024f5ufdWREg_003D_003D);
+	}
+
+	public IntPtr _0023_003DqEwxaXnI3RcRryw2rIF0D1I4KQnKNSNMbqKoxehpaKGw_003D(uint _0023_003DqdAfJRrCqou9h51FWERQcPg_003D_003D, uint _0023_003DqZGIijw5mX_002415lAh8M8_Xsg_003D_003D)
+	{
+		return _0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqvuL5FGSGBFflPzgbEH3p8p8JAzKuDyc2yc_0024DfmblWEg_003D(_0023_003DqdAfJRrCqou9h51FWERQcPg_003D_003D, _0023_003DqZGIijw5mX_002415lAh8M8_Xsg_003D_003D);
+	}
+
+	public void _0023_003Dq0_e_0024QLk59DaS2E_ARuup6A_003D_003D(IntPtr _0023_003DqrB0jlJDsiWzoo3eiqOy0fQ_003D_003D, uint _0023_003DqBt41eddxCOx8IBTl6IAhVg_003D_003D, uint _0023_003DqTtc0K7QfubeMjwD9r67kxQ_003D_003D, uint _0023_003DqHfscLFtfsRVfFHEQUx7W1g_003D_003D, uint _0023_003DqKH3MNuhOXl9PEjvXuSQuUA_003D_003D, byte[] _0023_003DqlQg8NiMGqiKHCYEbjb8sPQ_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dq2zgC2JuNUK1cV3kzaIB5TA_003D_003D(_0023_003DqrB0jlJDsiWzoo3eiqOy0fQ_003D_003D, _0023_003DqBt41eddxCOx8IBTl6IAhVg_003D_003D, _0023_003DqTtc0K7QfubeMjwD9r67kxQ_003D_003D, _0023_003DqHfscLFtfsRVfFHEQUx7W1g_003D_003D, _0023_003DqKH3MNuhOXl9PEjvXuSQuUA_003D_003D, _0023_003DqlQg8NiMGqiKHCYEbjb8sPQ_003D_003D);
+	}
+
+	public void _0023_003DqpIlcQWsjiPzbntUeI8dTfg_003D_003D(IntPtr _0023_003DqO2Mh37ShbQlAeASXvsqtcw_003D_003D, byte[] _0023_003DqtxgSYyUYVARFiQR80VLX8w_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dq0CNDCrKEl_0024zcTfKWYRQakg_003D_003D(_0023_003DqO2Mh37ShbQlAeASXvsqtcw_003D_003D, _0023_003DqtxgSYyUYVARFiQR80VLX8w_003D_003D);
+	}
+
+	public void _0023_003DqeMdTiHkDrA3sstGRZRfpTxPg2Dk3mS4M6QWZjTz9ZzA_003D(IntPtr _0023_003DqASw1YIRxxOlpS5fb3cMv2kLKmnnPs6JZIzwbRF2VFOs_003D, IntPtr _0023_003Dq2o7EdtDE65N9y41QTilHHQ_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dqq5ragwWK2LCG1NbusO99hYMn5DZMmhmMGxVzqwpkEd4_003D(_0023_003DqASw1YIRxxOlpS5fb3cMv2kLKmnnPs6JZIzwbRF2VFOs_003D, _0023_003Dq2o7EdtDE65N9y41QTilHHQ_003D_003D);
+	}
+
+	public void _0023_003Dq2L7yuWWxW4QRtNyr9rOGrw_003D_003D(IntPtr _0023_003Dq_tn_mhCAYtIgvr2F5f5O_A_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqExiLwhdkPtPqfHVkgK11kg_003D_003D(_0023_003Dq_tn_mhCAYtIgvr2F5f5O_A_003D_003D);
+	}
+
+	public void _0023_003DqLqAlyiZXNTn9CQgX0Lc_00240g_003D_003D(MeshVertex[] _0023_003Dqj_xDtRuNsRt5no2_0024_d7tRQ_003D_003D, uint _0023_003Dqjhga_0024tII4PurN8MfBhghJQ_003D_003D, ushort[] _0023_003Dqp88lSsrxdHmpdRrQrTy5Jw_003D_003D, uint _0023_003DqKK04mnurwYXLCtL2lpzy5Q_003D_003D, out IntPtr _0023_003Dqt7qtYITo9qpmpAXFld_Ecg_003D_003D, out IntPtr _0023_003Dq1HQnQvtsU1juWfbvkTdYxlY4O0SFJz3li7vfd9hgck0_003D, out IntPtr _0023_003DqWA0MMn46EEsQmUojU_aTUw_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqygvYeFrdV1dkPIIfBwoRxw_003D_003D(_0023_003Dqj_xDtRuNsRt5no2_0024_d7tRQ_003D_003D, _0023_003Dqjhga_0024tII4PurN8MfBhghJQ_003D_003D, _0023_003Dqp88lSsrxdHmpdRrQrTy5Jw_003D_003D, _0023_003DqKK04mnurwYXLCtL2lpzy5Q_003D_003D, out _0023_003Dqt7qtYITo9qpmpAXFld_Ecg_003D_003D, out _0023_003Dq1HQnQvtsU1juWfbvkTdYxlY4O0SFJz3li7vfd9hgck0_003D, out _0023_003DqWA0MMn46EEsQmUojU_aTUw_003D_003D);
+	}
+
+	public void _0023_003DqsJtwEzhvmVGnJ4elgxf0PxakeuG17dq4y5D393cVD24_003D(uint _0023_003Dq7pXbFz4iFN2K_0024ND6VWAIQw_003D_003D, uint _0023_003DqNQwjAbEMhd35Pho8VkbICQ_003D_003D, out IntPtr _0023_003DqPpSUJWWdHyzFYl5yFJ_00244pg_003D_003D, out IntPtr _0023_003Dqr4fKBm4uxPJEq0lMxXjNGmwPXDSFKonNN1QRVm4RD60_003D, out IntPtr _0023_003DqTDN_0024jlN8UGJOyetdIlqNMQ_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqacAnyuKyomOWzuxWCAN2Ny7k06mDGqGu1OOv9EwV6L0_003D(_0023_003Dq7pXbFz4iFN2K_0024ND6VWAIQw_003D_003D, _0023_003DqNQwjAbEMhd35Pho8VkbICQ_003D_003D, out _0023_003DqPpSUJWWdHyzFYl5yFJ_00244pg_003D_003D, out _0023_003Dqr4fKBm4uxPJEq0lMxXjNGmwPXDSFKonNN1QRVm4RD60_003D, out _0023_003DqTDN_0024jlN8UGJOyetdIlqNMQ_003D_003D);
+	}
+
+	public unsafe void _0023_003Dq071x_buqq0CEiLbkx_0024REEg_003D_003D(IntPtr _0023_003Dq0RgeVLKMXoECoQItnGlrqQ_003D_003D, IntPtr _0023_003DqrLSPfHnY7eOm6Zjp_SIEeg_003D_003D, MeshVertex[] _0023_003DqYGZKC9pEaWYnHomK0iR6vw_003D_003D, int _0023_003DqDTJa_0024W7QVFYsDH1bLz4Y_g_003D_003D, ushort[] _0023_003DqCk8CwqFmbCk28CacvZgTBA_003D_003D, int _0023_003Dql4qsTbwpi9HkBeSOGFhXug_003D_003D)
+	{
+		fixed (MeshVertex* _0023_003DqUvTfhvPCP6OR3p1dlYTlQg_003D_003D = _0023_003DqYGZKC9pEaWYnHomK0iR6vw_003D_003D)
+		{
+			fixed (ushort* _0023_003Dq9_0024pzmlRSh5tLk_DeRN69NQ_003D_003D = _0023_003DqCk8CwqFmbCk28CacvZgTBA_003D_003D)
+			{
+				_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqPdaoSR1dbv36evSuSn4omw_003D_003D(_0023_003Dq0RgeVLKMXoECoQItnGlrqQ_003D_003D, _0023_003DqrLSPfHnY7eOm6Zjp_SIEeg_003D_003D, _0023_003DqUvTfhvPCP6OR3p1dlYTlQg_003D_003D, _0023_003DqDTJa_0024W7QVFYsDH1bLz4Y_g_003D_003D, _0023_003Dq9_0024pzmlRSh5tLk_DeRN69NQ_003D_003D, _0023_003Dql4qsTbwpi9HkBeSOGFhXug_003D_003D);
+			}
+		}
+	}
+
+	public IntPtr _0023_003DqqadqfInc095OtwFW_0024ou9LrTTh6HMQQtORxlj_CLFGeQ_003D(uint _0023_003DqAAyKquipb3TxCMnl73hNQw_003D_003D, uint _0023_003DqkKsepOb_0024Jgs0eoFRFEMPVA_003D_003D, bool _0023_003Dqm5qpRkWphWE0beW_ZC1W1A_003D_003D, out IntPtr _0023_003DqI8hT__WJ5TQAkbzZ0FVXiA_003D_003D, out IntPtr _0023_003Dq93lIutgMZJGGYyAUEs_r9A_003D_003D)
+	{
+		return _0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqWs6wITvNQmPVjiDuUUaOV9wRCkUtyuFvNKQgNURaL0Y_003D(_0023_003DqAAyKquipb3TxCMnl73hNQw_003D_003D, _0023_003DqkKsepOb_0024Jgs0eoFRFEMPVA_003D_003D, _0023_003Dqm5qpRkWphWE0beW_ZC1W1A_003D_003D ? 1 : 0, out _0023_003DqI8hT__WJ5TQAkbzZ0FVXiA_003D_003D, out _0023_003Dq93lIutgMZJGGYyAUEs_r9A_003D_003D);
+	}
+
+	public void _0023_003DqaPL48AhHLZauWVRXdLZXs_chnMYTfbSTrV_7XU1gQM8_003D(IntPtr _0023_003DqWqKeIO5XnHU6flOUrb9aRA_003D_003D, IntPtr _0023_003DquhckP9zOC3EeX_0024QAtXtSPAZsyaFqIGsQN_0024ZkFVbeU_I_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqfSiidMuwFbJ_0024tlPclMHtRHvD1cuspTCUg_q43YT_0024N_0024o_003D(_0023_003DqWqKeIO5XnHU6flOUrb9aRA_003D_003D);
+	}
+
+	public void _0023_003DqiMiKXt_dZuboHtinLBlhhQ_003D_003D(IntPtr _0023_003DqtI93CKBueLiXDzRA8rpDYw_003D_003D, Color _0023_003Dqo3O5O_0024f4wLpdtmf4j_0024XWAQ_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqHELADyrGkImZZN4yB_0024FUIA_003D_003D(_0023_003DqtI93CKBueLiXDzRA8rpDYw_003D_003D, ref _0023_003Dqo3O5O_0024f4wLpdtmf4j_0024XWAQ_003D_003D);
+	}
+
+	public void _0023_003Dq6_I1WkYSHoTzf110qX7yE5whmtat0jygjs06iFHsLOc_003D(IntPtr _0023_003Dq65uRsQFwIkFYCX9iEyXW3A_003D_003D, Color _0023_003Dqt89lZl3TTucNttluLpIUrg_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqvThVQ5joGOqZIDtj6AFCpIoI26_0024HxydT_00242uQkbb2NRA_003D(_0023_003Dq65uRsQFwIkFYCX9iEyXW3A_003D_003D, ref _0023_003Dqt89lZl3TTucNttluLpIUrg_003D_003D);
+	}
+
+	public void _0023_003Dqe6Jhgbqsjvq5NSrGetX8h3z3Po45SkJTij48_0024bFPBaw_003D(IntPtr _0023_003DqO0Kmc1IfFAIOKJJVRa_XqQ_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqQ5jrOO75zZBKrEf7vNQErxx61FSyqxJRJSDxHI4gQvc_003D(_0023_003DqO0Kmc1IfFAIOKJJVRa_XqQ_003D_003D);
+	}
+
+	public void _0023_003DqM47wRhFUxMMrfg1KpVhTf27oYxE790EyD962Zywktfs_003D(IntPtr _0023_003DqzC1xK1tB4WRxXOSAN6lc5Q_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dq6pLrIjQ_0024bdZppehmhroEcPeX4ZeyhTwbd_0024WLmpESdqQ_003D(_0023_003DqzC1xK1tB4WRxXOSAN6lc5Q_003D_003D);
+	}
+
+	public void _0023_003DqbbqwLPUGv6xcB9eYX9o0ezw5Jg4ehjCz5ONj_0024vh7qvA_003D(IntPtr _0023_003Dq5AlZAjc9quOWrXeiL_FFKg_003D_003D, float _0023_003DqmWyXnwy3In8dYRQ1gONPBQ_003D_003D, float _0023_003Dqp3LUCxcLf15lVK5SU7Zkfw_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqgtlOCXP5g07e3Sa43N2pNF7HMpky0IjnclY5pzoqMsQ_003D(_0023_003Dq5AlZAjc9quOWrXeiL_FFKg_003D_003D, _0023_003DqmWyXnwy3In8dYRQ1gONPBQ_003D_003D, _0023_003Dqp3LUCxcLf15lVK5SU7Zkfw_003D_003D);
+	}
+
+	public void _0023_003Dq9p8IKshxXu_zhjKTjMElNTE_0024RpmBnNWFB68PZI8vS30_003D(IntPtr _0023_003Dq0d3sRscm5CfGKs0kNmdHMQ_003D_003D, float _0023_003DqpRjQDfx37OUdkNAwsjklXg_003D_003D, float _0023_003DqOO_KsINwFWmLhWGbpEjYFw_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqMG6mPhqzbDRoOmDNITQ_0024jKNU4ZPrBi_jjW_0024tN_0024bBufY_003D(_0023_003Dq0d3sRscm5CfGKs0kNmdHMQ_003D_003D, _0023_003DqpRjQDfx37OUdkNAwsjklXg_003D_003D, _0023_003DqOO_KsINwFWmLhWGbpEjYFw_003D_003D);
+	}
+
+	public void _0023_003DqkRu6hW49dy4o55VDcm_0024yjW8dY70ZhzmqlOih6_00247oru4_003D(bool _0023_003DqP655crznt5bMb7A4KD5fpQ_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqPbLWS8sgEpyw1WTiawjbX3b4hR_00243BEnvh2_CyvO1HA4_003D(_0023_003DqP655crznt5bMb7A4KD5fpQ_003D_003D);
+	}
+
+	public void _0023_003DqoTpKzWRbnK7ujG_0024Eg17rOw_003D_003D(int _0023_003DqJ0ebWDPpBQmbokXf1L52Ww_003D_003D, int _0023_003DqhlFFBpzuyhu1I5ahcbizVw_003D_003D, int _0023_003DqfsyEseLqViRgonjmgb6Ogw_003D_003D, int _0023_003Dqes3yPFBXtysjM01WHlUY0w_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dq0Ay0cYMS7tMWTUiSpX0gng_003D_003D(_0023_003DqJ0ebWDPpBQmbokXf1L52Ww_003D_003D, _0023_003DqhlFFBpzuyhu1I5ahcbizVw_003D_003D, _0023_003DqfsyEseLqViRgonjmgb6Ogw_003D_003D, _0023_003Dqes3yPFBXtysjM01WHlUY0w_003D_003D);
+	}
+
+	public void _0023_003Dq8fRCgkWd_u5FAl84YNpdNrUpncQ29QeZ8k_00243r3wv7aA_003D(_0023_003DqIbrUToI5cSTaDCNj5eVWrZ_0024QRhPoZEGWmBZyTWyzg4U_003D _0023_003DqVoSS39GzOW3ylCUBsmBZrA_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dqfe1ED_0024qhBZp9SdNTAu6Xb1Ab7vnqGK7fhDaQad_0024ApK0_003D(_0023_003DqVoSS39GzOW3ylCUBsmBZrA_003D_003D);
+	}
+
+	public void _0023_003Dq5xOtZweiIucyxdpwnCHv5g_003D_003D(IntPtr _0023_003DqNsM3biKxM9tj6du32i3YiQ_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqgGl1nF0fA7TOvlxgwNhPzg_003D_003D(_0023_003DqNsM3biKxM9tj6du32i3YiQ_003D_003D);
+	}
+
+	public void _0023_003DqcyGpEODH6pg_0024twBTU1SwWg_003D_003D(IntPtr[] _0023_003DqINLgaWxgXP4Y8s8hH_SdIg_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqEuRkCuV9lKUcqxSIbeR0BA_003D_003D(_0023_003DqINLgaWxgXP4Y8s8hH_SdIg_003D_003D);
+	}
+
+	public void _0023_003DquYnjEYodaU9m38hMDn4_KA_003D_003D(_0023_003DqQEGUea7pvsCvLoJkRoAtVQ_003D_003D[] _0023_003DqUtdVKnM0DL2TvUlHxiAoOA_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqWkK9FWvYW2_yCpQ1QPU23A_003D_003D(_0023_003DqUtdVKnM0DL2TvUlHxiAoOA_003D_003D);
+	}
+
+	public void _0023_003Dq3bIjO_0024z3Y8_00246DDxVT5yJsoQqc40KIEibnplmTdMjc4M_003D(float _0023_003DqoS_0024Bzg2of9_S_Sp2o4560A_003D_003D, _0023_003DqmUeB5OhdU5Et8IMU6Bk6Lw_003D_003D _0023_003Dq9OyVVIW3ClFcLVkGnaTPkA_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqVv8YGdWJaVkIUXakf3ADXKl3vq_0024n9Q7CwPSbjLNkS64_003D(_0023_003DqoS_0024Bzg2of9_S_Sp2o4560A_003D_003D, _0023_003Dq9OyVVIW3ClFcLVkGnaTPkA_003D_003D);
+	}
+
+	public void _0023_003Dq8vC_LFEXMVDU4dIRT9wNnCXQFnBekRxWdDdHpW82wEg_003D(ref Matrix4 _0023_003Dqn9YQfK5X5Kft5F4r4UGcvMcljH5HcYmzH0QnjH0PI1Y_003D, ref Matrix4 _0023_003DqByqyeCVGhpX_0024WQd8Btw8xA_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqFhMBbiIVNowvO9_0024xSPHk8sJ8c9vu7TuzArw8qllaIfY_003D(ref _0023_003Dqn9YQfK5X5Kft5F4r4UGcvMcljH5HcYmzH0QnjH0PI1Y_003D, ref _0023_003DqByqyeCVGhpX_0024WQd8Btw8xA_003D_003D);
+	}
+
+	public void _0023_003DqSLXlx1yuUQMA8bdD_nfvyJuJn_0024H5DTuZB_0024jUDf9v_qo_003D(ref Matrix4 _0023_003DqMfCS_00242DcPhpwvx_mX7Y1cQ_003D_003D, Color _0023_003DqJCM_0024KpjZeL0R_ABtvcMUNA_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dqmi66R6oDV_7wzF3qnGTDRbGXjDyCqLVV8_H_QeCSfaI_003D(ref _0023_003DqMfCS_00242DcPhpwvx_mX7Y1cQ_003D_003D, ref _0023_003DqJCM_0024KpjZeL0R_ABtvcMUNA_003D_003D);
+	}
+
+	public void _0023_003DqnXMCmp8zDhhz_0024gVx2fLQQA_003D_003D(IntPtr _0023_003Dqk7g3rckoJ7CFHNWHg5EExQ_003D_003D, IntPtr _0023_003Dq0RgeVLKMXoECoQItnGlrqQ_003D_003D, IntPtr _0023_003DqjeUVgQR5SatvA_s7aOOCyQ_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqhLpi3grJUIpxywOYIc9B7w_003D_003D(_0023_003Dq0RgeVLKMXoECoQItnGlrqQ_003D_003D, _0023_003DqjeUVgQR5SatvA_s7aOOCyQ_003D_003D);
+	}
+
+	public void _0023_003DqqA1CGsCdiMvoTzqah0iNSA_003D_003D(uint _0023_003DqiAq5y_00248MtKR71mP9I_AdLw_003D_003D, uint _0023_003Dq7ikF19ntvOOvpBq_MSCbcw_003D_003D, int _0023_003Dqk1snA0W8wdfJUE3uS8veMg_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dq9z19Ii12WAnNRHGP_0024foHOA_003D_003D(_0023_003DqiAq5y_00248MtKR71mP9I_AdLw_003D_003D, _0023_003Dq7ikF19ntvOOvpBq_MSCbcw_003D_003D, _0023_003Dqk1snA0W8wdfJUE3uS8veMg_003D_003D);
+	}
+
+	public void _0023_003DqD0QChHbN_0024EGn4GmrnsQlBg_003D_003D(IntPtr _0023_003DqCvrsIm3jI9y_0024WDQg_0024YCpyOkcg5_fptayxrHsW9vJ_0024Vg_003D, IntPtr _0023_003Dqe8ZIyKBBdwFRbCql4UYbDIhuCjS_yClm43PPnH3JDH4_003D, int _0023_003DqujE52Zd3E5yiNXE_QQUOGg_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqDfemnIeQmjlEpAFPUz9x8A_003D_003D(_0023_003Dqe8ZIyKBBdwFRbCql4UYbDIhuCjS_yClm43PPnH3JDH4_003D, (uint)_0023_003DqujE52Zd3E5yiNXE_QQUOGg_003D_003D);
+	}
+
+	public void _0023_003DqDqySEcXi_00241WQI9MYoTfQIw_003D_003D(IntPtr _0023_003DqokUVHzhVbQ_00241XMbbMjYJ8_nLk8kAqv_0024DjncUI2xRFfw_003D, int _0023_003DqypPfufs3KCihsCj4HWjFlA_003D_003D, int _0023_003Dq28aJCxRTtsBM9sGtLv8kbw_003D_003D)
+	{
+		_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqswvGllJzJ4xJ6cIcmvvjHA_003D_003D(_0023_003DqokUVHzhVbQ_00241XMbbMjYJ8_nLk8kAqv_0024DjncUI2xRFfw_003D, _0023_003DqypPfufs3KCihsCj4HWjFlA_003D_003D, _0023_003Dq28aJCxRTtsBM9sGtLv8kbw_003D_003D);
+	}
+
+	public void _0023_003DqCwV43CR0AalIDUrGBurlGiBLfBGhYGRlMLaCMXRcpSo_003D(IntPtr _0023_003DqTj9cL2SAvnUPyqZ8tvYRiQ_003D_003D, string _0023_003Dq3H5fBd8d1uR2Qget9aHgWQ_003D_003D)
+	{
+		if (_0023_003Dqjtd0RhaH_eDUMwKnGl0SnA_003D_003D._0023_003DqLtgopwEhYwNzslZqvv9JMvmX62fD95nWZYg4e7x9hF4_003D)
+		{
+			_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqlfTaM9tCpMsdc4C92fC0q5M_0024rCWRC1W262YN0WmOve0_003D(_0023_003DqTj9cL2SAvnUPyqZ8tvYRiQ_003D_003D, _0023_003Dq3H5fBd8d1uR2Qget9aHgWQ_003D_003D);
+		}
+	}
+
+	public void _0023_003DqTHFANITbxCZpL9y1oFBHOAg0MbPJ5u24R27p_0024uzsNyY_003D(string _0023_003Dq_akgcwAY8LgVeUML1Z9y0g_003D_003D)
+	{
+		if (_0023_003Dqjtd0RhaH_eDUMwKnGl0SnA_003D_003D._0023_003DqLtgopwEhYwNzslZqvv9JMvmX62fD95nWZYg4e7x9hF4_003D)
+		{
+			_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqnYtLeghjKiE8pV6vJyntYpHX66CE3eoUUrZjvb7yYlc_003D(_0023_003Dq_akgcwAY8LgVeUML1Z9y0g_003D_003D);
+		}
+	}
+
+	public void _0023_003DquOcQ4xbfdGr9QFmsBWatILOlYurIdZ7LCiVTL02LNqA_003D(string _0023_003Dq6fMarLx2mz3dtPjhrSMI_0024A_003D_003D)
+	{
+		if (_0023_003Dqjtd0RhaH_eDUMwKnGl0SnA_003D_003D._0023_003DqLtgopwEhYwNzslZqvv9JMvmX62fD95nWZYg4e7x9hF4_003D)
+		{
+			_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003Dqka05fIBwJ_gdPDwaZRv61rEqomrqy2md8oqJdmj6hbI_003D(_0023_003Dq6fMarLx2mz3dtPjhrSMI_0024A_003D_003D);
+		}
+	}
+
+	public void _0023_003Dqe_BZxsH5Q9MVs9Gv5li6GQ_003D_003D()
+	{
+		if (_0023_003Dqjtd0RhaH_eDUMwKnGl0SnA_003D_003D._0023_003DqLtgopwEhYwNzslZqvv9JMvmX62fD95nWZYg4e7x9hF4_003D)
+		{
+			_0023_003DqrHF5Q6wDDbfFPa3B29YddA_003D_003D._0023_003DqOs59hXU2c1Qq6TpPDfR2cw_003D_003D();
+		}
+	}
+
+	private static bool _0023_003DqWfC64bomrnA5cTgy9vRbbQ_003D_003D(string _0023_003Dq2xPiOCojStc5CVXu2wV1GA_003D_003D, string _0023_003DqqeRnqvoCs1CjBOtQsVvoXw_003D_003D, string _0023_003Dqi15R88vnnjxcdwZge4gImA_003D_003D, string _0023_003Dq85WyE0vUP6yXt51HQmHomQ_003D_003D)
+	{
+		string path = Path.Combine(_0023_003DqaMyRIiIVSoY8bVD5lt24uw_003D_003D._0023_003Dq3OoYNllhnAYBu3onh_zX1g_003D_003D, _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709788), _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709849));
+		string text = _0023_003DqvOj5oIug8Fe_0024HDTaJkHt9Q_003D_003D._0023_003DqcWYC8vWgOuSPfoH3AVXnjYcfNrEwYYeUtKGUWQ8cafA_003D(_0023_003Dq2xPiOCojStc5CVXu2wV1GA_003D_003D, _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709863));
+		File.WriteAllText(text, File.ReadAllText(path) + _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065778150) + File.ReadAllText(_0023_003Dq2xPiOCojStc5CVXu2wV1GA_003D_003D));
+		string text2 = _0023_003DqvOj5oIug8Fe_0024HDTaJkHt9Q_003D_003D._0023_003DqvBGLILbgUU07PQhrK_0024bZicIv1tWabRTVEn_ZD3PfyeE_003D(_0023_003Dq85WyE0vUP6yXt51HQmHomQ_003D_003D);
+		ProcessStartInfo processStartInfo = new ProcessStartInfo();
+		processStartInfo.FileName = _0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709876);
+		processStartInfo.Arguments = string.Format(_0023_003DqOkrtFb7xSDb86gponsEwJKLmlLeT4qfj2cAFGxN_0024WeA_003D._0023_003DqjAGAP8XErb771WPPaGoLlA_003D_003D(-2065709958), new object[5] { text, _0023_003DqqeRnqvoCs1CjBOtQsVvoXw_003D_003D, _0023_003Dqi15R88vnnjxcdwZge4gImA_003D_003D, _0023_003Dq85WyE0vUP6yXt51HQmHomQ_003D_003D, text2 });
+		processStartInfo.UseShellExecute = false;
+		processStartInfo.CreateNoWindow = true;
+		Process? process = Process.Start(processStartInfo);
+		process.WaitForExit();
+		return process.ExitCode == 0;
+	}
+}

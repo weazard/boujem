@@ -1,0 +1,4 @@
+public struct _0023_003DqRi31WlRlfPvMv_wQy0br9nxFQ_iitTcpY8yJB71RZaM_003D
+{
+	public int _0023_003Dq6K3UxSHFdECLkPchutus1Q_003D_003D;
+}

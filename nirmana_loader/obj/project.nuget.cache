@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CUq4X3iODJc=",
+  "success": true,
+  "projectFilePath": "/private/tmp/nirmana_loader/nirmana_loader.csproj",
+  "expectedPackageFiles": [
+    "/Users/edik/.nuget/packages/microsoft.netcore.app.runtime.win-x64/10.0.5/microsoft.netcore.app.runtime.win-x64.10.0.5.nupkg.sha512",
+    "/Users/edik/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/10.0.5/microsoft.aspnetcore.app.runtime.win-x64.10.0.5.nupkg.sha512",
+    "/Users/edik/.nuget/packages/microsoft.netcore.app.host.win-x64/10.0.5/microsoft.netcore.app.host.win-x64.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+public struct CodepointRange(int _0023_003Dq8A35YerQt2F4xSYFqmbXPQ_003D_003D, int _0023_003DqjIQRExpZH8EiwY6XOCYf5g_003D_003D)
+{
+	public readonly int _0023_003DqhM4oxFGrjlRDzViKXwJ5TQ_003D_003D = _0023_003Dq8A35YerQt2F4xSYFqmbXPQ_003D_003D;
+
+	public readonly int _0023_003Dq3HzSXYcZjovDp_IrDb2A1A_003D_003D = _0023_003DqjIQRExpZH8EiwY6XOCYf5g_003D_003D;
+}
